@@ -1,4 +1,9 @@
 import Nav from './nav'
+import Review from './review'
+import Video from './video'
+import Rights from './rights'
+import { Link } from "react-router-dom";
+
 function App() {
 
     return (
@@ -13,7 +18,7 @@ function App() {
                     <p>
                         Challenge your brain with our fun and addictive memory game.
                     </p>
-                    <a href="#"><button>play now</button></a>
+                    <Link to="/Game"><button>play now</button></Link>
                 </article>
             </section>
 
@@ -55,6 +60,12 @@ function App() {
                 </div>
             </div>
 
+               {/* <Video /> */}
+            <div className="container3">
+               <Review />
+            </div>
+
+            <Rights />
 
         </main>
     )
