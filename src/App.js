@@ -60,10 +60,10 @@ function App() {
                 </div>
             </div>
 
-               {/* <Video /> */}
-            <div className="container3">
+               <Video />
+            {/* <div className="container3">
                <Review />
-            </div>
+            </div> */}
 
             <Rights />
 

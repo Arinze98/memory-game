@@ -2,8 +2,8 @@ function Video() {
 
     return (
         <main>
-            <div className="video">
-                <video src=""></video>
+            <div className="img-container1">
+                <img src="/img/game.png" alt="game picture" />
             </div>
         </main>
     )

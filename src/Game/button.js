@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom'
 function Button() {
   return (
     <div className='btn'>      
-        <a href="/Game"><button className='restart'><VscDebugRestart /></button></a>
-        <a href="/"><button className='home'><FaHome /></button></a>
+        <Link to="#"><button className='restart'><VscDebugRestart /></button></Link>
+        <Link to="/"><button className='home'><FaHome /></button></Link>
     </div>
   )
 }
